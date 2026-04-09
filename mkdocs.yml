@@ -1,0 +1,30 @@
+site_name: Codex CLI Guide
+site_description: Documentation publishing starter for GitHub Pages
+site_url: __SITE_URL__
+repo_url: __REPO_URL__
+repo_name: __REPO_NAME__
+
+docs_dir: docs
+site_dir: site
+
+nav:
+  - 首页: index.md
+  - 快速开始: getting-started.md
+  - 发布流程: publish.md
+  - 部署细节: deployment.md
+  - 常见问题: troubleshooting.md
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
